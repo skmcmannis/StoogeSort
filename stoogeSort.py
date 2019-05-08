@@ -32,8 +32,8 @@ toSort = []
 #open the export file
 exportFile = open("stooge.txt", "w")
 
-#open import file 'data.txt'
-with open("data.txt", "r") as importFile:
+#open import file 'sampleInput.txt'
+with open("sampleInput.txt", "r") as importFile:
     for line in importFile:
 
         #save the value string as a list, delimited by ' '
